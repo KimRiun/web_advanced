@@ -4,39 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/profile-style.css">
   </head>
 
   <body id="Home">
 
     <header>
       <nav>
-        <img src="./images/logo1.svg" alt="logo" />
-        <ul>
-          <a href="#Home">Home</a></span>
-          <a href="#About">About</a>
-          <a href="#Tech_Stack">Tech Stack</a>
-          <a href="#Projects">Projects</a>
-          <a href="#Contact">Contact</a>
-        </ul>
-        <span>
-            <a href=""><img src="./images/github.svg" alt="github" /></a>
-            <a href=""><img src="./images/twitter.svg" alt="twitter" /></a>
-            <a href=""><img src="./images/linkedIn.svg" alt="linkedIn" /></a>
-          </span>
+        <div class="logo">
+          <img src="./images/logo1.svg" alt="logo" />
+        </div>
+        
+        <div class="nav-items">
+          <div href="#Home">Home</div>
+          <div href="#About">About</div>
+          <div href="#Tech_Stack">Tech Stack</div>
+          <div href="#Projects">Projects</div>
+          <div href="#Contact">Contact</div>
+        </div>
+        
+        <div class="sns-items">
+          <div><img src="./images/github.svg" alt="github" /></div>
+          <div><img src="./images/twitter.svg" alt="twitter" /></div>
+          <div><img src="./images/linkedIn.svg" alt="linkedIn" /></div>
+        </div>
       </nav>
     </header>
 
     <div id="wrap">
       <section id="About">
-        <span>
-            <h2>Hi 👋,</h2>
-            <h2>My name is</h2>
-            <h2>Pavan MG</h2>
-            <h2>I build things for web</h2>
-        </span>
-        <span>
-            <img src="./images/profile.png" alt="profile">
-        </span>
+        <div class="about-text">
+            <h2>
+              Hi 👋, <br>
+              My name is <br>
+              Pavan MG <br>
+              I build things for web
+            </h2>
+        </div>
+        <div class="about-img">
+            <img src="./images/profile.jpeg" alt="profile">
+        </div>
       </section>
 
       <section id="Tech_Stack">

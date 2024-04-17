@@ -1,0 +1,42 @@
+.logo {
+    display: inline-block;
+    padding-right: 240px;
+}
+
+.nav-items div {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+
+.nav-items {
+    display: inline-block;
+}
+
+.sns-items div {
+    display: inline-block;
+}
+
+.sns-items {
+    display: inline-block;
+}
+
+.about-text {
+    display: inline-block;
+    padding-right: 100px;
+}
+
+.about-img {
+    display: inline-block;
+    padding: 3px 3px 1.5px 3px;
+    border: 3px solid transparent;
+    background: linear-gradient(180deg, #E70FAA 0%, #00C0FD 100%);
+    border-radius: 100%;
+
+}
+
+.about-img img {
+    width: 180px;
+    border-radius: 100%;
+}
+

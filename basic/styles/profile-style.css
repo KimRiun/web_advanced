@@ -28,7 +28,7 @@
 
 .about-img {
     display: inline-block;
-    padding: 3px 3px 1.5px 3px;
+    padding: 2px 2px 0.1px 2px;
     border: 3px solid transparent;
     background: linear-gradient(180deg, #E70FAA 0%, #00C0FD 100%);
     border-radius: 100%;
@@ -40,3 +40,6 @@
     border-radius: 100%;
 }
 
+nav {
+    display: flex;
+}

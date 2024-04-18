@@ -45,63 +45,55 @@
       </div>
     </header>
 
-    <div id="wrap">
+    <div class="wrap">
       <!-- 기술 스택 -->
       <section id="tech-stack">
         <div class="section-title">
           <h2>My Tech Stack</h2>
           <p>Technologies I’ve been working with recently</p>
         </div>
-
-        <div>
-            <span>
-                <img src="./images/logos_html.svg" alt="html" />
-                <img src="./images/logos_css.svg" alt="css" />
-                <img src="./images/logos_js-official.svg" alt="js" />
-                <img src="./images/logos_react.svg" alt="react" />
-                <img src="./images/logos_redux.svg" alt="html" />
-                <img src="./images/logos_bootstrap.svg" alt="html" />
-            </span>
-        </div>
-        <div>
-            <span>
-                <img src="./images/logos_tailwind.svg" alt="html" />
-                <img src="./images/logos_sass.svg" alt="html" />
-                <img src="./images/logos_git.svg" alt="html" />
-                <img src="./images/logos_cib_greensock.svg" alt="html" />
-                <img src="./images/logos_vscode.svg" alt="html" />
-                <img src="./images/logos_github-fill.svg" alt="html" />
-            </span>
+        <div class="tech-items">
+          <div class="tech-item"><img src="./images/logos_html.svg" alt="html" /></div>
+          <div class="tech-item"><img src="./images/logos_css.svg" alt="css" /></div>
+          <div class="tech-item"><img src="./images/logos_js-official.svg" alt="js" /></div>
+          <div class="tech-item"><img src="./images/logos_react.svg" alt="react" /></div>
+          <div class="tech-item"><img src="./images/logos_recoil.png" alt="html" /></div>
+          <div class="tech-item"><img src="./images/logos_bootstrap.svg" alt="html" /></div>
+          <div class="tech-item"><img src="./images/logos_tailwind.svg" alt="html" /></div>
+  
+          <div class="tech-item"><img src="./images/logos_git.svg" alt="html" /></div>
+  
+          <div class="tech-item"><img src="./images/logos_vscode.svg" alt="html" /></div>
+          <div class="tech-item"><img src="./images/logos_github-fill.svg" alt="html" /></div>
         </div>
       </section>
 
+      <!-- 프로젝트 -->
       <section id="Projects">
         <div class="section-title">
           <h2>Projects</h2>
           <p>Things I’ve built so far</p>
         </div>
-        <span>
+        <div class="article-items">
+
+          <a class="card" href="https://poised-mandible-7e9.notion.site/tori-story-820f6adec2654340a87d8734d285494f">
             <article>
-                <img src="./images/Project01.svg" alt="card_img">
-                <div class="card_body">
-                    <h3 class="title">Project Tile goes here</h3>
-                    <p class="content">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
-                    <p class="etc"><b>Tech stack</b> : HTML , JavaScript, SASS, React</p>
+              <div class="card-thumbnail" id="card-1-img"></div>
+              <div class="card-body">
+                <div class="title">토리스토리</div>
+                <div class="content">‘토리스토리’는 우울감을 느끼는 20대를 대상으로 소소한 도전 과제 달성을 통해 성취감 및 자존감을 높이는 것을 목표로 하는 서비스입니다</div>
+                <div class="tag">#React #TypeScript #PWA #Atomic Design Pattern</div>
+              </div>
+              <div class="card-footer">
+                <div>
+                  <img src="./images/akar-icons_github-fill.svg" alt="view_code_logo">
+                  <a href="https://github.com/congchu/web_advanced">View Code</a>
                 </div>
-                <div class="card_footer">
-                    <ul>
-                        <li>                        
-                            <img src="" alt="live_preview_logo">
-                            <a href="#">Live Preview</a>
-                        </li>
-                        <li>
-                            <img src="" alt="view_code_logo">
-                            <a href="#">View Code</a>
-                        </li>
-                    </ul>
-                </div>
+              </div>
             </article>
-        </span>
+          </a>
+
+        </div>
       </section>
       
     </div>

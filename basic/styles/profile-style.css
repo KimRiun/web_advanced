@@ -56,3 +56,15 @@ header {
 }
 
 
+/* wrap */
+.section-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    line-height: 1.4;
+}
+
+.section-title h2 {
+    font-size: 30px;
+}

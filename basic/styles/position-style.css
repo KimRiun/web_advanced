@@ -1,0 +1,101 @@
+.static {
+    background: rgb(255, 185, 185);
+}
+
+span,
+div {
+    background: yellow;
+    border: 1px solid red;
+}
+
+.top {
+    position: relative;
+    top: 5px;
+    z-index: 1;
+}
+
+.right {
+    position: relative;
+    right: 5px;
+}
+
+.bottom {
+    position: relative;
+    bottom: 5px;
+}
+
+.left {
+    position: relative;
+    left: 5px;
+}
+
+#fixed {
+    background: yellow;
+    position: fixed;
+    right: 0;
+}
+
+.absolute {
+    background: green;
+}
+#absolute {
+    background: yellow;
+    position: absolute;
+    right: 0;
+}
+
+#parent {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: skyblue;
+}
+
+#child {
+    position: relative;
+    right:0
+}
+
+.letter {
+
+    text-align: center;
+    padding: 10px;
+}
+
+#letter {
+    text-align: center;
+    z-index: -2;
+    background: black;
+}
+
+#back {
+    position: relative;
+    background: purple;
+    width: 100px;
+    height: 150px;
+    z-index: -1;
+}
+
+#front {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: red;
+    z-index: 1;
+}
+
+#paper {
+    display: inline-block;
+    position: absolute;
+    width: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    background: white;
+    word-break: break-all;
+    overflow-wrap: break-word;
+}

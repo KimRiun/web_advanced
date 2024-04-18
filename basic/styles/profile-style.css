@@ -18,6 +18,7 @@ body {
     background: white;
     padding: 12px;
     box-shadow: 2px 2px 10px 0px #d0cbdf57;
+    z-index: 99;
 }
 
 .top-logo {

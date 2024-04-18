@@ -29,6 +29,7 @@ body {
     display: flex;
     gap: 16px;
     font-size:large;
+    z-index: 99;
 }
 
 .nav-items a {

@@ -1,0 +1,30 @@
+.nav-items {
+    font-size: 1.25rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+
+.intro {
+    font-size: 2rem;
+    line-height: 1.4; 
+}
+
+.profile img {
+    max-width: 320px;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.tech-items {
+    justify-content: center;
+    gap: 40px;
+}
+
+.contact-items {
+    justify-content: center;
+}
+
+.contact-items .nav-items{
+    display: none;
+}

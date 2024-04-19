@@ -1,6 +1,16 @@
+.top-logo {
+    display: none;
+}
+
 .nav-items {
-    gap: 4px;
-    font-size: 0.1rem;
+    gap: 8px;
+    font-size: 1.25rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sns-links {
+    display: none;
 }
 
 .intro {

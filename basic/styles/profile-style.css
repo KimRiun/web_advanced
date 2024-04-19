@@ -1,4 +1,13 @@
 /* 폰트 */
+/* 전체 느낌 */
+@font-face {
+    font-family: 'TTHakgyoansimMonggeulmonggeulR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimMonggeulmonggeulR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 프로필 텍스트 */
 @font-face {
     font-family: 'Ownglyph_Dailyokja-Rg';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403@1.0/Ownglyph_Dailyokja-Rg.woff2') format('woff2');
@@ -6,8 +15,17 @@
     font-style: normal;
 }
 
+/* 가독성 글 */
+@font-face {
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* css */
 body {
+    font-family: 'TTHakgyoansimMonggeulmonggeulR';
     margin: auto;
     padding: 20px;
     max-width: 1228px;
@@ -32,7 +50,12 @@ body {
 }
 
 .top-logo {
-    width: 80px;
+    /* width: 80px; */
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: transparent;
+    background: linear-gradient(160deg, #0f98e7 0%, #be00fd 100%);
+    -webkit-background-clip: text;
 }
 
 .nav-items {
@@ -43,7 +66,7 @@ body {
 }
 
 .nav-items a {
-    color: black;
+    color: rgb(55, 36, 162);
     text-decoration-line: none;
 }
 
@@ -79,9 +102,10 @@ header {
     padding: 8px;    
 }
 
-@media (max-width: 768px) {
+@media (max-width: 780px) {
     header {
         flex-direction: column-reverse;
+        gap: 3vh;
     }
 }
 
@@ -141,6 +165,7 @@ article a {
 }
 
 .card {
+    font-family: 'omyu_pretty';
     width: 300px;
     height: 440px;
     line-height: 1.4;

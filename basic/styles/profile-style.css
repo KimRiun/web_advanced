@@ -18,7 +18,7 @@ body {
     background: white;
     padding: 12px;
     box-shadow: 2px 2px 10px 0px #d0cbdf57;
-    z-index: 99;
+    z-index: 100;
 }
 
 .top-logo {
@@ -29,7 +29,6 @@ body {
     display: flex;
     gap: 16px;
     font-size:large;
-    z-index: 99;
 }
 
 .nav-items a {

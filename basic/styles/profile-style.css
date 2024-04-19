@@ -43,8 +43,8 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-    background: white;
-    padding: 8px;
+    background: rgba(255, 255, 255, 0.825);
+    padding: 12px;
     box-shadow: 2px 2px 10px 0px #d0cbdf57;
     z-index: 100;
 }
@@ -61,7 +61,7 @@ body {
 .nav-items {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 28px;
     font-size:1.25rem;
 }
 
@@ -89,7 +89,7 @@ header {
 
 .intro h2 span {
     color: transparent;
-    background: linear-gradient(160deg, #0fe7b8 0%, #be00fd 100%);
+    background: linear-gradient(160deg, #be00fd 0%, #003fc8 100%);
     -webkit-background-clip: text;
 }
 
@@ -103,6 +103,14 @@ header {
 }
 
 @media (max-width: 780px) {
+    .top-logo {
+        display: none;
+    }
+
+    .sns-links {
+        display: none;
+    }
+    
     header {
         flex-direction: column-reverse;
         gap: 3vh;
@@ -128,6 +136,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     padding: 32px;
     line-height: 1.4;
 }
@@ -142,6 +151,7 @@ header {
     max-width: 700px;
     margin: auto;
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     gap: 40px;
 }
@@ -225,4 +235,17 @@ article a {
 #card-1-img {
     background-image: url("./../images/toristory_title.png");
     background-position: 10% 20%;
+}
+
+/* contact */
+.contact-items {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    margin-top: 20px;
+    padding: 40px;
+}
+
+.contact-items p {
+    color: rgb(245, 245, 245);
 }

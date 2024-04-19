@@ -1,17 +1,9 @@
-.top-logo {
-    display: none;
-}
-
 .nav-items {
-    gap: 8px;
     font-size: 1.25rem;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
-.sns-links {
-    display: none;
-}
 
 .intro {
     font-size: 2rem;
@@ -22,4 +14,17 @@
     max-width: 320px;
     width: 100%;
     border-radius: 100%;
+}
+
+.tech-items {
+    justify-content: center;
+    gap: 40px;
+}
+
+.contact-items {
+    justify-content: center;
+}
+
+.contact-items .nav-items{
+    display: none;
 }
